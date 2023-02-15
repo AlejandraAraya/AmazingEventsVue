@@ -1,0 +1,83 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 1032px) {
+    
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        text-align:right ;
+    }
+
+    .categorias {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .barra-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barra-nav ul li a {
+        text-align: center;
+    }
+
+    .mainuno {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .form-check {
+        margin-top: 1rem;
+    }
+
+
+    .contenedor-cartas {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .carta-detalle {
+        flex-direction: column;
+    }
+
+    .carta-detalle .w-50 {
+        width: 100% !important;
+    }
+
+    .carta-detalle .imagen .imagen-party {
+        border-radius: 1rem 1rem 0 0 !important;
+    }
+
+    .carta-detalle .descripcion {
+        border-radius: 0 0 1rem 1rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .carta-detalle {
+        padding: 1rem !important;
+    }
+
+}
+
+
+
+
+
+
+
+    
