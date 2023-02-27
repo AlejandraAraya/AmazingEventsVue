@@ -59,6 +59,10 @@
       </div>
     </header>
 
+    <div class="barra-titulo d-flex justify-content-center pt-4">
+      <h1 class="titulo">Home</h1>
+    </div>
+
     <main>
       <div class="mainuno d-flex justify-content-between m-5  px-4" >
         
@@ -94,22 +98,22 @@
 
       </div>
 
-      <div class="d-flex m-5 px-5 flex-wrap justify-content-evenly gap-5 contenedor-cartas">
+      <div id="cards-container" class="d-flex m-5 px-5 flex-wrap justify-content-evenly gap-5 contenedor-cartas">
 
         
-        <div class="card p-2 shadow-lg m-5" style="width: 19rem;">
-            <img src="./assets/imagenes/Food_Fair.jpg" class="card-img-top" height="200" alt="img-food">
-            <div class="card-body">
-              <h5 class="card-title">Food Fair</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="byp d-flex justify-content-between align-items-baseline mt-4">
-                <a href="./details.html" class="btn btn-dark">Details</a>
-                <p class="precio">Price: $2000</p>
-              </div>
+        <!-- <div class="card p-2 shadow-lg m-5" style="width: 19rem;">
+          <img src="./assets/imagenes/Food_Fair.jpg" class="card-img-top" height="200" alt="img-food">
+          <div class="card-body">
+            <h5 class="card-title">Food Fair</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="byp d-flex justify-content-between align-items-baseline mt-4">
+              <a href="./details.html" class="btn btn-dark">Details</a>
+              <p class="precio">Price: $2000</p>
             </div>
           </div>
+        </div> -->
   
-          <div class="card p-2 shadow-lg m-5" style="width: 19rem;">
+          <!-- <div class="card p-2 shadow-lg m-5" style="width: 19rem;">
             <img src="./assets/imagenes/Costume_Party.jpg" class="card-img-top" height="200" alt="img-costume-party">
             <div class="card-body">
               <h5 class="card-title">Costume Party</h5>
@@ -169,7 +173,7 @@
                   <p class="precio">Price: $2000</p>
                 </div>
               </div>
-            </div>
+            </div> -->
     
 
   </div>
@@ -201,6 +205,12 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
+    ></script>
+    <script
+      src="./assets/js/data.js"
+    ></script>
+    <script
+      src="./assets/js/index.js"
     ></script>
   </body>
 </html>
