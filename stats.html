@@ -59,114 +59,60 @@
       </div>
     </header>
 
-    <div class="barra-titulo d-flex justify-content-center pt-4">
+    <div class="barra-titulo d-flex justify-content-center pt-4 mb-5">
       <h1 class="titulo">Stats</h1>
     </div>
 
     <main id="carta">
 
-          <table class="table w-auto mx-auto my-4  vi border shadow-lg table-bordered ">           
+          <table id="tabla1" class="table w-auto mx-auto border mb-5 shadow-lg table-bordered ">           
             <thead>  
               <tr>
-                <th colspan="3"  class="table-active h3 text-center">Event statistics</th>
+                <h2 colspan="3" class="h2 text-center border border-white border-bottom-0 py-2 mb-0 mx-auto bg-secondary bg-gradient" style="max-width: 984px; width: 100%;">Event Stadistics</h2>
               </tr>            
               <tr>
-                <th colspan="">Events with the highest percentage of altendance</th>
-                <th colspan="">Events with the lowest percentage of altendance</th>
+                <th colspan="">Events with the highest percentage of attendance</th>
+                <th colspan="">Events with the lowest percentage of attendance</th>
                 <th colspan="">Event with larger capacity</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
+                <td id="mayor-asistencia">-</td>
+                <td id="menor-asistencia">-</td>
+                <td id="mayor-capacidad">-</td>
               </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>             
+                          
             </tbody>
           </table>
 
-          <table class="table w-auto mx-auto my-5  border shadow-lg table-bordered ">           
+          <table id="tabla2" class="table mx-auto border shadow-lg table-bordered mb-5" style="max-width: 981px; width: 100%;">           
             <thead>  
               <tr>
-                <th colspan="3"  class="table-active h3 text-center">Upcoming events statistics by category</th>
+                <h2 colspan="3" class="h2 text-center border border-white border-bottom-0 py-2 mb-0 mx-auto bg-secondary bg-gradient" style="max-width: 981px; width: 100%;">Upcoming events statistics by category</h2>
               </tr>            
               <tr>
-                <th colspan="">Events with the highest percentage of altendance</th>
-                <th colspan="">Events with the lowest percentage of altendance</th>
-                <th colspan="">Event with larger capacity</th>
+                <th colspan="">Categories</th>
+                <th colspan="">Revenues</th>
+                <th colspan="">Percentaje of attendance</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>             
+            <tbody id="table2">
             </tbody>
           </table>
 
-          <table class="table w-auto mx-auto my-5  border shadow-lg table-bordered ">           
+          <table id="tabla3" class="table mx-auto border shadow-lg table-bordered mb-5" style="max-width: 981px; width: 100%;">           
             <thead>  
               <tr>
-                <th colspan="3"  class="table-active h3 text-center">Past Events statistic by category</th>
+                <h2 colspan="3" class="h2 text-center border border-white border-bottom-0 py-2 mb-0 mx-auto bg-secondary bg-gradient" style="max-width: 981px; width: 100%;">Past Events statistic by category</h2>
               </tr>            
               <tr>
-                <th colspan="">Events with the highest percentage of altendance</th>
-                <th colspan="">Events with the lowest percentage of altendance</th>
-                <th colspan="">Event with larger capacity</th>
+                <th colspan="">Categories</th>
+                <th colspan="">Revenues</th>
+                <th colspan="">Percentaje of attendance</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-              </tr>             
+            <tbody id="table3">
             </tbody>
           </table>
 
@@ -198,5 +144,10 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="./assets/js/data.js"
+    ></script>
+
+    <script src="./assets/js/stats.js"></script>
   </body>
 </html>

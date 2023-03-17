@@ -1,4 +1,7 @@
-const queryString = location.search
+getData()
+.then(() => {
+
+    const queryString = location.search
 
 const params = new URLSearchParams(queryString);
 
@@ -26,9 +29,9 @@ function mostrarDetalle() {
                             <p class="text-center text-decoration-underline">${identificador.date}</p>
                             <p>${identificador.description}</p>
                             <p class="text-center"><span class="fw-bold">Place:</span> ${identificador.place}</p>
-                            
                             <p class="text-center"><span class="fw-bold">Price:</span> $${identificador.price}</p>
-                            
+                            <p class="text-center"><span class="fw-bold">Capacity:</span> ${identificador.capacity}</p>
+                            <p class="text-center"><span class="fw-bold">${identificador.assistance ? "Assistance" : "Estimate" }</span> ${identificador.assistance? identificador.assistance : identificador.estimate }</p>
                             <input class="btn btn-secondary" type="button" value="Back" onClick="history.go(-1);">
                         </div>  
     
@@ -39,3 +42,4 @@ function mostrarDetalle() {
 
 
 mostrarDetalle()
+})
